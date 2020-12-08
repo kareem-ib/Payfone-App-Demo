@@ -1,0 +1,22 @@
+# Called by client
+/startAuthentication POST
+calls /resolveApi
+calls /token
+stores access_token in server
+
+# Figure out which API to use, native or payfone
+/resolveApi
+returns resolved url to localhost for which api to use
+
+
+# ---- Payfone APIs ----
+
+# Get 
+/authenticationByRedirect
+
+
+
+# ---- Native Carrier APIs ----
+
+
+

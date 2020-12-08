@@ -1,0 +1,21 @@
+{
+  "name": "api-server",
+  "version": "0.0.1",
+  "description": "Web server for Payfone authorization demo",
+  "main": "index.js",
+  "author": "Kareem Ibrahim",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.6",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "request-promise": "^4.2.4",
+    "uuid": "^3.3.2"
+  }
+}
